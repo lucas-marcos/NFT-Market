@@ -12,3 +12,13 @@
 body {
     background: var(--Background);
 }
+
+.background{
+    background: var(--Background);
+}
+/* 
+.container-principal{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+     */
