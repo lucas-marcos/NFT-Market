@@ -1,9 +1,7 @@
 import Navbar from "./components/navbar";
 import { Rocket } from 'lucide-react';
 import AddicionalFunc from "./components/AdditionalInfo";
-import Image from "next/image";
 import TrendCollectionImagens from "./components/TrendCollectionImagens";
-import SectionTrending from "./components/SectionTrending";
 import SectionTopCreators from "./components/SectionTopCreators";
 
 function GetStartedButton() {
@@ -70,7 +68,7 @@ export default function Home() {
             </div>
 
             <div className="flex gap-7 lg:gap-20">
-              <div className="">
+              <div >
                 <TrendCollectionImagens imagem1="/imagem1.png" imagem2="/imagem2.png" imagem3="/imagem3.png" qtdImagens="1025"></TrendCollectionImagens>
               </div>
               <div className="hidden md:inline-block">
@@ -84,8 +82,7 @@ export default function Home() {
         </section>
 
 
-        {/* SECTION TOP CREATORS */}
-        <section className="">
+        <section >
           <SectionTopCreators />
         </section>
       </div >
