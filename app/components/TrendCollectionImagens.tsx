@@ -14,11 +14,11 @@ export default function TrendCollectionImagens(props: Props) {
 
             <div className="flex gap-3 w-full h-full">
                 <div className="w-1/3 h-full">
-                    <img className="rounded-lg h-full" src={props.imagem2} alt=""></img>
+                    <img className="rounded-lg " src={props.imagem2} alt=""></img>
                 </div>
 
                 <div className="w-1/3 h-full">
-                    <img className="rounded-lg h-full" src={props.imagem3} alt=""></img>
+                    <img className="rounded-lg " src={props.imagem3} alt=""></img>
                 </div>
 
                 <div className="flex flex-col w-1/3 bg-purple rounded-lg text-center justify-center align-center">
