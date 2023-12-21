@@ -3,6 +3,7 @@ import { Rocket } from 'lucide-react';
 import AddicionalFunc from "./components/AdditionalInfo";
 import TrendCollectionImagens from "./components/TrendCollectionImagens";
 import SectionTopCreators from "./components/SectionTopCreators";
+import BrownserCategoriesSection from "./components/BrownserCategoriesSection";
 
 function GetStartedButton() {
   return (
@@ -81,9 +82,12 @@ export default function Home() {
           </div>
         </section>
 
-
         <section >
           <SectionTopCreators />
+        </section>
+
+        <section>
+          <BrownserCategoriesSection/>
         </section>
       </div >
     </div >
